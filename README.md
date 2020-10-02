@@ -1,4 +1,14 @@
 # flaskAlcWtfSkeleton
+
+Flask
+https://flask.palletsprojects.com/en/1.1.x/
+
+WTForms
+https://wtforms.readthedocs.io/en/2.3.x/
+
+flask-sqlalchemy
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/
+
 ```
 git clone https://github.com/qetuop/flaskAlcWtfSkeleton.git
 cd flaskAlcWtfSkeleton
