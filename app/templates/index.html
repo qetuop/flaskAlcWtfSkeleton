@@ -10,6 +10,27 @@
 
 <p>Put Stuff Here!</p>
 
+<table id="example" border="1">
+        <thead>
+        <tr>
+            <th>{{ form.id.label }}</th>           
+            <th>{{ form.name.label }}</th>
+            <th>{{ form.age.label }}</th>   
+            <th>{{ form.date.label }}</th>    
+        </tr>
+        </thead>
+        <tbody>
+        {% for entry in employees %}
+        <tr>
+            <td>  {{ entry.id }}</td>
+            <td> {{ entry.name }}</td>
+            <td> {{ entry.age }}</td>       
+            <td> {{ entry.date }}</td>                
+        </tr>
+        {% endfor %}
+        </tbody>
+        
+
 </body>
 
 </html>

@@ -12,3 +12,4 @@ venv
 # my stuff
 bak/
 *.bak
+*.db
