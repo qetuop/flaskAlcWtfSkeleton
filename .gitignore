@@ -1,0 +1,14 @@
+# python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pycharm
+.idea
+
+# virtual env
+venv
+
+# my stuff
+bak/
+*.bak
